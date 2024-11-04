@@ -1,4 +1,4 @@
-import {FC, useCallback, useEffect, useState} from "react";
+import {FC, useCallback} from "react";
 import {
   Button,
   Keyboard,
