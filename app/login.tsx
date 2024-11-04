@@ -1,8 +1,6 @@
-import {openAuthSessionAsync} from "expo-web-browser";
-import {FC, useCallback, useEffect, useRef, useState} from "react";
+import {FC, useCallback, useEffect, useState} from "react";
 import {
   Button,
-  Image,
   Keyboard,
   KeyboardAvoidingView,
   SafeAreaView,
