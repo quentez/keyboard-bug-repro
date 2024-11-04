@@ -13,26 +13,9 @@ import {
 //
 
 export const Login: FC = () => {
-  const [isRefreshing, setIsRefreshing] = useState(false);
-
-  useEffect(() => {
-    if (!isRefreshing) {
-      return;
-    }
-
-    setTimeout(() => {
-      setIsRefreshing(false);
-    }, 1000);
-  }, [isRefreshing]);
-
   const onButtonPress = useCallback(() => {
     Keyboard.dismiss()
   }, []);
-
-  console.log("Re-rendering", Date.now());
-  if (isRefreshing) {
-    return null;
-  }
 
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: "white"}}>
