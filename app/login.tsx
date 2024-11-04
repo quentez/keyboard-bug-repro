@@ -43,11 +43,7 @@ export const Login: FC = () => {
         behavior="padding"
       >
         <View  style={{flex: 1, justifyContent: "center", alignItems: "center"}}>
-            <TextInput
-              placeholder="user.host.com"
-              // onChange={onEntityChange}
-              // onSubmit={onContinueButtonPress}
-            />
+            <TextInput placeholder="user.host.com" />
             <Button
               onPress={onButtonPress}
               title="Hello"
